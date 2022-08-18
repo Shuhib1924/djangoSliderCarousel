@@ -22,5 +22,4 @@ from django.conf import settings
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.slider, name='slider'),
-    path('home2/', views.home2, name='home2'),
 ]+static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
